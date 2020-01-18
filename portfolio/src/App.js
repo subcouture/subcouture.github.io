@@ -1,7 +1,7 @@
 // App.jsx
  
 import React from 'react';
-import logo from './Logo.png';
+import logo from './logo.png';
 // Import the BrowserRouter, Route and Link components
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
 import Projects from './Projects.js'; 
@@ -20,7 +20,7 @@ function App() {
         <Route path="/about" component={About} />
   
         <div className="navigation">
-          <img src={logo} className="logo-image" alt="Logo Image" />
+          <img src={logo} className="logo-image" alt="Logo" />
           <div className="navigation-sub">
                                           
 			{/* Set up the Links */}
