@@ -1,12 +1,40 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/*Define Color Palette*/
+:root{
+	--black:#00171F;
+	--blue:#2892d7;
+	--red:#AD343E;
+	--white:#FEFFFF;
+	--green:#D3EFBD;
 }
 
+/*original link blue = #00b7FF;*/
+
+body {
+	background-color:var(--white);
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+p{
+	color:var(--black);
+}
+
+.links h4{
+	text-align:center;
+	color:var(--blue);
+}
+
+.links a:link, a:visited{
+	color:var(--blue);
+	background-color:transparent;
+	text-decoration:none;
+}
 
 .content img{
 	max-width: 100%;
 	max-height: 100%;
+	min-width: 100%;
+	min-height: 100%;
 }
 
 .logo{
@@ -16,7 +44,7 @@ body {
 
 
 a {
-  color: #00B7FF;
+  color:var(--blue);
 }
 
 *{
