@@ -1,5 +1,22 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	img(class="logo" src="images/logo.png")
+	//h1= title
+	//p Welcome to #{title}
+	
+	//Gallery Grid
+	div(class="row")
+		div(class="column")
+			div(class="content")
+				a(href="https://steamcommunity.com/sharedfiles/filedetails/?id=1596868200&searchtext=hexagonal")
+					img(src="images/Glinskis.png")
+				h3 Glinski's Hexagonal Chess
+				p A simple chessboard with snap in points, at its inception this mod was the only hexagonal chess board variant for Tabletop simulator.
+
+		div(class="column")
+			div(class="content")
+				a(href="https://www.nexusmods.com/skyrimspecialedition/mods/22976?tab=description")
+					img(src="images/cold_iron.webp")
+				h3 Cold Iron
+				p A Skyrim mod that reflects some of our myths about the fae, translated into the logic of the Elder Scrolls, igniting enemies that are susceptible to silver. 

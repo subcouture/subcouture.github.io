@@ -3,6 +3,70 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+
+.content img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.logo{
+	display:block;
+	margin:auto;
+}
+
+
 a {
   color: #00B7FF;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+/* Centering Website */
+.main {
+	max-width: 1000px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 50px;
+	word-break: break-all;
+}
+
+.row {
+	margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+	padding: 8px;
+}
+
+.column {
+	float: left;
+	width: 25%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.content {
+	background-color: white;
+	padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+	.column {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.column{
+		width:100%;
+	}
 }
