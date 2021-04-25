@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const fs = require('fs');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -37,5 +38,22 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+['index'].forEach( path => {
+
+    app.render(path, {
+        // optional metadata here
+        }, (err, res) =>{
+        if (err)
+            console.log('Error rendering ' + path, err)
+        else {
+            fs.writeFile(__dirname + '/public/' + path + '.html', res, function(err, res) {
+                if (err)
+                    console.log('error saving html file', path, err)
+            })
+        }
+    })
+
+})
 
 module.exports = app;
