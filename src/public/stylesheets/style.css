@@ -10,6 +10,10 @@
 /*original link blue = #00b7FF;*/
 
 body {
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
 	background-color:var(--white);
 	padding: 0px 50px 0px;
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -39,7 +43,8 @@ p{
 
 .logo{
 	display:block;
-	margin:auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -99,9 +104,8 @@ h1 {
 	}
 }
 
-.footer{
-	bottom: 0;
-	width: 100%;
+footer{
+	margin-top:auto;
 	text-align: center;
-	left: 0;
+	width: 100%;
 }
