@@ -98,3 +98,11 @@ h1 {
 		width:100%;
 	}
 }
+
+.footer{
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	position: fixed;
+}
