@@ -41,7 +41,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-['index'].forEach( path => {
+['index', 'brook'].forEach( path => {
 
     app.render(path, {
         // optional metadata here
