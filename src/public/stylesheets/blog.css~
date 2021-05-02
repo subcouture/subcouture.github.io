@@ -9,6 +9,7 @@
 h1{
 	font-size: 30px;
 	color:var(--red);
+	word-break: break-all;
 }
 
 #title{

@@ -1,7 +1,7 @@
 extends ../blog_layout
 
 block content
-	h1(id='title') Soldering on Screw In Header Terminals to the Brook Zero Pi
+	h1(id='title') Soldering on Screw-In Header Terminals to the Brook Zero Pi
 	
 	p While building a custom hitbox arcade controller for a client, he contacted me wanting to swap out the extremely cheap Zero-Delay PCB for a McBazel Brook PCB - and therefore gaining a proper SOCD cleaner and console interoperability. Unfortunately, I had already purchased all the parts for the Zero-Delay PCB, including the Neutrik Port and Gasket ($20), and wiring ($10).
 
@@ -13,10 +13,12 @@ block content
 
 	p However, there are a couple of problems with this approach. While the correct terminal type was easy to find, the KF128-2.54mm, the first and most obvious issue is that the pass-throughs of the Brook Zero Pi are split into an awkward pin configuration - 5/12/8. Sharing no common denominator, it wouldn't be possible to simply purchase a set of screw-in terminals and align them naturally. 
 
-	img(src="../images/brookSoldering/brook_in_box.jpg")
-
 	p Secondly, even if there was a common denominator, when slotting the terminals into the through holes, these 2.54mm terminals are too large to sit next to each other, pushing each other apart and creating an arch.
 
+
+	img(src="../images/brookSoldering/brook_in_box.jpg")
+
+	
 	img(src="../images/brookSoldering/headers_dont_fit.jpg")
 	
 	p The naive solution would be to simply purchase 3 screw-in terminal sets in the right pin lengths. But this is expensive, since no online retailer will sell them to you in singles. Purchasing them this way would cost around $25. 
@@ -33,6 +35,9 @@ block content
 	img(src="../images/brookSoldering/finished_solder_overhead.jpg")
 	img(src="../images/brookSoldering/finished_solder_side.jpg")
 
-	p While I'm quite satisfied with the results, particularly the soldering job, since it's something I do very rarely, if I could give it another go, I'd construct a small jig to hold the terminals tight and neat while I solder them in place. While functional, their current layout leaves a lot to be desired aesthetically. For now, this will have to do.
+	p Overall, I'm quite satisfied with the results, particularly the soldering job, since it's something I do very rarely. However if I could give it another go, I'd construct a small jig to hold the terminals tight and neat while I solder them in place. While functional, their current layout leaves a lot to be desired aesthetically. For now, this will have to do.
 
 	p Sidenote: Do not try to super glue the terminals into distinct blocks ahead of time, to keep it neat. It WILL gum up the conductor component and prevent the terminal from screwing open/closed neatly. Luckily I bought spares!
+
+	footer
+		p &#127279 Linzi Zhu 2021
