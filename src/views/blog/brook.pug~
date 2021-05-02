@@ -35,7 +35,7 @@ block content
 	img(src="../images/brookSoldering/finished_solder_overhead.jpg")
 	img(src="../images/brookSoldering/finished_solder_side.jpg")
 
-	p While I'm quite satisfied with the results, particularly the soldering job, since it's something I do very rarely, if I could give it another go, I'd construct a small jig to hold the terminals tight and neat while I solder them in place. While functional, their current layout leaves a lot to be desired aesthetically. For now, this will have to do.
+	p Overall, I'm quite satisfied with the results, particularly the soldering job, since it's something I do very rarely. However if I could give it another go, I'd construct a small jig to hold the terminals tight and neat while I solder them in place. While functional, their current layout leaves a lot to be desired aesthetically. For now, this will have to do.
 
 	p Sidenote: Do not try to super glue the terminals into distinct blocks ahead of time, to keep it neat. It WILL gum up the conductor component and prevent the terminal from screwing open/closed neatly. Luckily I bought spares!
 
