@@ -1,0 +1,9 @@
+
+extends ../project_layout
+
+	h1 Glinski's Hexagonal Chess
+	
+	p lmao said the scorpion. lol
+
+	footer
+		p &#127279 Linzi Zhu 2021

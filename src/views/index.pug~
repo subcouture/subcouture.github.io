@@ -16,7 +16,7 @@ block content
 			div(class="content")
 				a(href="https://steamcommunity.com/sharedfiles/filedetails/?id=1596868200")
 					img(src="images/index/Glinskis.png")
-				h3 #[a(href="/projects/glinskis") Gliński's Hexagonal Chess]
+				h3 #[a(href="/projects/glinskis") Glinskis Hexagonal Chess]
 				p A simple chessboard with snap in points, at its inception this mod was the only hexagonal chess board variant for Tabletop simulator.
 
 

@@ -43,7 +43,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-['index', 'blog/brook', 'projects/glinskis'].forEach( path => {
+['index', 'blog/brook', 'projects/glinksis'].forEach( path => {
 
     app.render(path, {
         // optional metadata here
